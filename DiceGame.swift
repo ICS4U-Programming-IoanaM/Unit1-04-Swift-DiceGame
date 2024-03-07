@@ -7,7 +7,6 @@ import Foundation
 //  Copyright (c) 2024 Ioana Marinescu. All rights reserved.
 //
 //  A program that makes the user guess a number until they get it right.
-
 // variable declaration
 let min = 1
 let max = 6
@@ -41,7 +40,7 @@ repeat {
   // checks if user is higher than dice number
   if userNum > diceNum {
     print("The dice rolled lower. Guess again!")
- 
+
   // checks if user is lower than dice number
   } else if userNum < diceNum {
     print("The dice rolled higher. Guess again!")
