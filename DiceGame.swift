@@ -31,22 +31,22 @@ repeat {
     print("Please enter a valid integer from 1 to 6.")
     continue
   }
-  
+
   // checks if user input is between 1 and 6
   if userNum < 1 || userNum > 6 {
     print("Number must be between 1 and 6")
     continue
   }
-  
+
   // checks if user is higher than dice number
   if userNum > diceNum {
     print("The dice rolled lower. Guess again!")
-      
+ 
   // checks if user is lower than dice number
   } else if userNum < diceNum {
     print("The dice rolled higher. Guess again!")
   }
-  
+
   // counter increment
   counter += 1
 } while userNum != diceNum
