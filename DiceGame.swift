@@ -1,13 +1,12 @@
 import Foundation
-//
-//  Microwave.swift
+//  DiceGame.swift
 //
 //  Created by Ioana Marinescu
-//  Created on 2024/03/01
+//  Created on 2024/03/06
 //  Version 1.0
 //  Copyright (c) 2024 Ioana Marinescu. All rights reserved.
 //
-//  A program that makes the user guess a number until they get it right
+//  A program that makes the user guess a number until they get it right.
 
 // variable declaration
 let min = 1
@@ -29,10 +28,9 @@ repeat {
   // getting user input for user's guess
   print("Enter a number (1-6):")
   guard let input = readLine(), let num = Int(input) else {
-      print("Please enter a valid integer from 1 to 6.")
-      continue
+    print("Please enter a valid integer from 1 to 6.")
+    continue
   }
-  userNum = num
   
   // checks if user input is between 1 and 6
   if userNum < 1 || userNum > 6 {
