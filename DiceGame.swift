@@ -19,7 +19,6 @@ print("Welcome to the Dice Game! You will have to guess the number on the dice i
 
 // generates random number
 diceNum = Int.random(in: min...max)
-print(diceNum)
 
 // do while that loops until user guesses correctly
 repeat {
@@ -29,6 +28,7 @@ repeat {
     print("Please enter a valid integer from 1 to 6.")
     continue
   }
+  userNum = num
 
   // checks if user input is between 1 and 6
   if userNum < 1 || userNum > 6 {
