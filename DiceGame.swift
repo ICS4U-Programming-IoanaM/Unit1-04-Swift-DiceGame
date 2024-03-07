@@ -15,8 +15,7 @@ var userNum = 0
 var diceNum = 0
 
 // display introduction message
-print("Welcome to the Dice Game! You will have to 
-guess the number on the dice in order to win!")
+print("Welcome to the Dice Game! You will have to guess the number on the dice in order to win!")
 
 // generates random number
 diceNum = Int.random(in: min...max)
